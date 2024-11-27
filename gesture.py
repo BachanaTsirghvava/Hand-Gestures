@@ -143,6 +143,7 @@ while(1):
         pass
         
     
+    k = cv2.waitKey(10) & 0xFF
     if k == 27:
         break
     
